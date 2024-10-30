@@ -1,0 +1,1242 @@
+# Copyright (C) 2014 Sami Keijonen
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MaxBoxy  1.0\n"
+"Report-Msgid-Bugs-To: https://foxnet-themes.fi/contact/\n"
+"POT-Creation-Date: 2023-03-31 10:35+0200\n"
+"PO-Revision-Date: 2017-05-26 21:49+0200\n"
+"Last-Translator: Sloba <sloooba@yahoo.com>\n"
+"Language-Team: maxPressy\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;esc_html_e;__ngettext:1,2;_n:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_nc:4c,1,2;_x:1,2c;"
+"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_html__;esc_attr__\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: library\n"
+"X-Poedit-SearchPathExcluded-1: 1-org\n"
+"X-Poedit-SearchPathExcluded-2: admin/codestar-framework\n"
+"X-Poedit-SearchPathExcluded-3: node_modules\n"
+
+#: admin/admin-init.php:59
+msgid "Expand all"
+msgstr ""
+
+#: admin/opt/config/callbacks.php:37
+msgid "Upgrade to "
+msgstr ""
+
+#: admin/opt/config/callbacks.php:37
+msgid "Pro version"
+msgstr ""
+
+#: admin/opt/config/callbacks.php:84
+msgid "Volume / Unique"
+msgstr ""
+
+#: admin/opt/config/callbacks.php:93
+msgid "Conversion rate: "
+msgstr ""
+
+#: admin/opt/config/callbacks.php:108
+msgid "More stats with Maxboxy Pro: "
+msgstr ""
+
+#: admin/opt/config/callbacks.php:121
+msgid "Reset"
+msgstr ""
+
+#: admin/opt/config/framework.php:72
+msgid "Uninstall settings if plugin is deleted"
+msgstr ""
+
+#: admin/opt/config/framework.php:73
+msgid ""
+"If this is checked, all FloatAny seetings will be deleted "
+"when the plugin is removed, otherwise the settings will be "
+"preserved."
+msgstr ""
+
+#: admin/opt/config/framework.php:81
+msgid "Upgrade to pro version!"
+msgstr ""
+
+#: admin/opt/config/framework.php:129
+#: admin/opt/config/metabox.php:225
+msgid "Conditionals"
+msgstr ""
+
+#: admin/opt/config/framework.php:138
+msgid "Duplicator"
+msgstr ""
+
+#: admin/opt/config/framework.php:161
+msgid "General"
+msgstr ""
+
+#: admin/opt/config/framework.php:167
+msgid "Loading plugin files"
+msgstr ""
+
+#: admin/opt/config/framework.php:168
+msgid ""
+"\"Default\" means that files will be loaded over the whole "
+"site, no matter if the FloatAny/InjectAny panels are "
+"utilized on those pages. \"On demand\" option loads plugin "
+"files only on pages where the panels are apearing, but "
+"bypassing default WordPress enqueuing and that will output "
+"the styles in the \"body\" tag instaed of the \"head\" "
+"which may break HTML validity. To keep HTML validity, it "
+"may be the best if you set the \"Site overall\" option "
+"here and use a plugin like Booster Sweeper to unload the "
+"files you do not need on certain pages."
+msgstr ""
+
+#: admin/opt/config/framework.php:170
+msgid "Site overall"
+msgstr ""
+
+#: admin/opt/config/framework.php:171
+msgid "On demand"
+msgstr ""
+
+#: admin/opt/config/framework.php:179
+msgid "Large screen breaking point"
+msgstr ""
+
+#: admin/opt/config/framework.php:180
+msgid ""
+"From entered point onward, it's considered to be the large "
+"screen. There are the options that depend on this. Default "
+"value is \"992\"."
+msgstr ""
+
+#: admin/opt/config/framework.php:192
+#: admin/opt/config/mb-options.php:247
+#: admin/opt/config/mb-options.php:364
+msgid "Z-index"
+msgstr ""
+
+#: admin/opt/config/framework.php:193
+msgid ""
+"If other element is overlapping the box, with \"z-index\" "
+"give a higher priority to the box in a stack order. "
+"Default is quite high: 999, most likely you won't neet to "
+"overwrite it. Still, here you can enter the new default "
+"value. Further, you can override that for each panel from "
+"its settings."
+msgstr ""
+
+#: admin/opt/config/framework.php:197
+msgid "Other"
+msgstr ""
+
+#: admin/opt/config/framework.php:208
+msgid "Panel's background"
+msgstr ""
+
+#: admin/opt/config/framework.php:209
+msgid "Panel's text color"
+msgstr ""
+
+#: admin/opt/config/framework.php:210
+msgid "Close/toggle button"
+msgstr ""
+
+#: admin/opt/config/framework.php:211
+msgid "Background"
+msgstr ""
+
+#: admin/opt/config/framework.php:212
+msgid "Color"
+msgstr ""
+
+#: admin/opt/config/framework.php:216
+#: admin/opt/config/mb-options.php:505
+#: admin/opt/config/mb-options.php:574
+#: admin/opt/config/mb-options.php:642
+msgid "Colors"
+msgstr ""
+
+#: admin/opt/config/framework.php:225
+msgid ""
+"Colors applied here act as default for FloatAny panels. "
+"Further, you can override that for each panel from its "
+"settings."
+msgstr ""
+
+#: admin/opt/config/framework.php:263
+msgid ""
+"Colors applied here act as default for InjectAny panels. "
+"Further, you can override that for each panel from its "
+"settings."
+msgstr ""
+
+#: admin/opt/config/framework.php:297
+#: admin/opt/config/framework.php:370
+msgid "Reusable blocks"
+msgstr ""
+
+#: admin/opt/config/framework.php:302
+msgid ""
+"Colors applied here act as default for Reusable block. "
+"Further, you can override that for each panel from its "
+"settings."
+msgstr ""
+
+#: admin/opt/config/framework.php:350
+msgid "Strains"
+msgstr ""
+
+#: admin/opt/config/framework.php:356
+msgid ""
+"Panel strains are different branches of MaxBoxy (with "
+"FloatAny build popups, with InjectAny build in-content "
+"panels). Further you can enable MaxBoxy options for "
+"WordPress built in feature, i.e. Reusable blocks."
+msgstr ""
+
+#: admin/opt/config/framework.php:360
+msgid "Create InjectAny panels from "
+msgstr ""
+
+#: admin/opt/config/framework.php:360
+#: admin/opt/config/framework.php:364 classes/init.php:339
+msgid "here"
+msgstr ""
+
+#: admin/opt/config/framework.php:364
+msgid "Create FloatAny panels from "
+msgstr ""
+
+#: admin/opt/config/framework.php:369
+msgid "Enable MaxBoxy for Reusable blocks"
+msgstr ""
+
+#: admin/opt/config/framework.php:370
+msgid ""
+"\"Reusable blocks\" is WordPress built in feature which "
+"output is very similar to our InjectAny. With MaxBoxy you "
+"can enhance "
+msgstr ""
+
+#: admin/opt/config/framework.php:383
+msgid "Modules"
+msgstr ""
+
+#: admin/opt/config/framework.php:389
+msgid ""
+"Enabled modules are avaliable across multiple panel "
+"strains (InjectAny, FloatAny, Reusable blocks)."
+msgstr ""
+
+#: admin/opt/config/framework.php:393
+msgid "Conversions"
+msgstr ""
+
+#: admin/opt/config/framework.php:397
+msgid ""
+"Conversions module gives you oportunity to set the goals "
+"with each panel, but also some other options depend on it. "
+"Basically any panel's feature, that is dependant on the "
+"browser's local storage API (which is a feature similar to "
+"Cookies, but in a bit modern way), will require "
+"Conversions module to be active. See documentation for "
+"more info."
+msgstr ""
+
+#: admin/opt/config/framework.php:402
+msgid "Enable Conversions module"
+msgstr ""
+
+#: admin/opt/config/framework.php:421
+msgid "Upgrade"
+msgstr ""
+
+#: admin/opt/config/framework.php:440
+msgid "Export/Import"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:26
+msgid "Disabled"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:30
+msgid ""
+"With the Pro version you can disable overall loading, then "
+"load the panel with shortcode on a particular page or a "
+"template."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:43
+msgid "Test mode"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:44
+msgid ""
+"Load the panel only for the logged in users who can edit "
+"pages, i.e. you."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:50
+msgid "Global Loading"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:51
+msgid ""
+"By default panel is loaded immediately over the site. By "
+"disabling it here, you can still call it from the "
+"shortcode, e.g. set it for the particular page or use it "
+"on the template."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:54
+msgid "Enabled"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:64
+msgid ""
+"Global loading is controlled from the Splitter instance."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:90
+msgid "Serve panel variations."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:126
+msgid "Pages"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:132
+msgid "Apply to particular pages"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:148
+msgid "Triggers"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:154
+msgid "Conditional trigger appearance options"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:170
+msgid "Schedule"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:176
+msgid "Schedule options"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:227
+#: admin/opt/config/mb-options.php:341
+msgid "Base"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:234
+#: admin/opt/config/mb-options.php:348
+msgid "Showing style"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:235
+#: admin/opt/config/mb-options.php:349
+msgid "Set in which way the panel is revealed."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:237
+#: admin/opt/config/mb-options.php:352
+msgid "Bump in"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:238
+#: admin/opt/config/mb-options.php:353
+msgid "Fade in"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:239
+#: admin/opt/config/mb-options.php:354
+msgid "Slide in horizontally"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:240
+#: admin/opt/config/mb-options.php:355
+msgid "Slide in vertically"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:248
+msgid ""
+"If other element is overlapping the box, with \"z-index\" "
+"give a higher priority to the box in a stack order. "
+"Default is 999, unless you changed it from the plugin's "
+"global settigns."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:254
+#: admin/opt/config/mb-options.php:371
+msgid "Apply lightbox"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:259
+#: admin/opt/config/mb-options.php:394
+msgid "Panel type"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:260
+#: admin/opt/config/mb-options.php:395
+msgid ""
+"Basically, determine the way the panel is opened and closed"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:262
+#: admin/opt/config/mb-options.php:397
+#: admin/opt/config/mb-options.php:1008
+msgid "Toggler"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:263
+#: admin/opt/config/mb-options.php:398
+msgid "Closer"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:271
+#: admin/opt/config/mb-options.php:406
+msgid "Panel roles (Optional)"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:272
+#: admin/opt/config/mb-options.php:407
+msgid ""
+"Multiple selections allowed. However, be aware that "
+"sometimes combination of roles may be contradictional and "
+"even may get incompatible. \"Hidden\" means that the panel "
+"will be loading but not revealed, you have to set a "
+"initialization button somewhere on the page (Available "
+"with Pro version). \"Banish\" will work only if the "
+"Conversion module is enabled from the global settings. It "
+"means, once closed, the panel won't show again until the "
+"user's browser storage is cleaned. \"Exiter\" means a "
+"panel will be shown when a user tries to exit the browser "
+"(usually used together with \"Hidden\" option). \"Hover out"
+"\" role will close the panel when the mouse leaves the "
+"panel. With \"Rotator\" option, panel's elements will be "
+"rotatted. \"Igniter\" is the feature of the Toggler panel "
+"type, which set the panel initially closed with a button "
+"to ignite it."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:274
+#: admin/opt/config/mb-options.php:409
+msgid "Hidden"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:275
+msgid "Exiter"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:276
+#: admin/opt/config/mb-options.php:410
+msgid "Banish"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:277
+#: admin/opt/config/mb-options.php:411
+msgid "Hover out"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:278
+#: admin/opt/config/mb-options.php:412
+msgid "Rotator"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:279
+#: admin/opt/config/mb-options.php:413
+msgid "Igniter"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:289
+#: admin/opt/config/mb-options.php:423
+msgid "Rotation - active time (seconds)"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:290
+#: admin/opt/config/mb-options.php:424
+msgid ""
+"Set how long the notification item will last as live. "
+"Default is 5 seconds."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:300
+#: admin/opt/config/mb-options.php:434
+msgid "Rotation - off time (seconds)"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:301
+#: admin/opt/config/mb-options.php:435
+msgid ""
+"Duration between two rotating items, i.e. the time before "
+"showing the next notification. Default is 10 seconds, "
+"minimum 1 second."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:311
+#: admin/opt/config/mb-options.php:445
+msgid "Rotation - user's closing pause (seconds)"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:312
+#: admin/opt/config/mb-options.php:446
+msgid ""
+"Pause rotation on notification's closing - If the user "
+"closes a panel, wait for the specified time before "
+"continuing with the next notification."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:321
+#: admin/opt/config/mb-options.php:455
+msgid "Repeat rotation"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:322
+#: admin/opt/config/mb-options.php:456
+msgid ""
+"After the last notification item is shown, it will start "
+"over again from the first one, and continue endlessly."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:328
+msgid "Label mark for closing"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:329
+#: admin/opt/config/mb-options.php:463
+msgid ""
+"Text will be added marking that the panel will be closed "
+"on mouse move out of the box."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:351
+msgid "On page load"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:356
+msgid "Align wide"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:357
+msgid "Align full"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:365
+msgid ""
+"If other element is overlapping the box, with \"z-index\" "
+"give a higher priority to the box in a stack order. This "
+"may usefull if some of beneath options are used (lightbox "
+"or sticky). Default is 2."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:376
+msgid "Set as Sticky"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:377
+msgid ""
+"While scrolling down, it is sticking the panel to the top "
+"of its parent container."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:382
+msgid "Alignment"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:383
+msgid ""
+"If the panel's size is set but not with 100% width, you "
+"can align its postion."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:385
+msgid "Start"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:386
+msgid "Center"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:387
+msgid "End"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:462
+msgid "Label for hover closing"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:690
+#: admin/opt/config/mb-options.php:794
+msgid "Sizes"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:696
+#: admin/opt/config/mb-options.php:800
+msgid "All size options are optional"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:701
+#: admin/opt/config/mb-options.php:805
+msgid "Width"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:702
+#: admin/opt/config/mb-options.php:806
+msgid "If not specified, width of the content determines it."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:712
+msgid "100% height"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:713
+#, php-format
+msgid ""
+"Initially panel will take as much space in height as it "
+"needs to display the content. However, here you can force "
+"it to take the 100% of the browser's height."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:715
+#: admin/opt/config/mb-options.php:739
+msgid "Yes"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:716
+#: admin/opt/config/mb-options.php:740
+msgid "No"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:724
+#: admin/opt/config/mb-options.php:816
+msgid "Width (large screens)"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:725
+#: admin/opt/config/mb-options.php:736
+#: admin/opt/config/mb-options.php:817
+msgid "Optionally overwrite for the large screens"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:735
+msgid "100% height (large screens)"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:738
+msgid "Inherit"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:747
+#: admin/opt/config/mb-options.php:826
+msgid "Spacing"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:752
+#: admin/opt/config/mb-options.php:831
+msgid "Padding"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:753
+#: admin/opt/config/mb-options.php:832
+msgid "Default is 1.5em"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:765
+#: admin/opt/config/mb-options.php:770
+#: admin/opt/config/mb-options.php:844
+#: admin/opt/config/mb-options.php:849
+msgid "Border"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:775
+#: admin/opt/config/mb-options.php:854
+msgid "Border radius"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:879
+msgid ""
+"Here you can set how the panel's close or toggle on/off "
+"button appears."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:884
+msgid "Usage"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:885
+msgid ""
+"You can still utilize the in-content closing/toggling "
+"buttons, no matter which option you set here."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:887
+msgid "Use"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:888
+msgid "No Closer"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:889
+msgid "Remove"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:897
+msgid "Opener icon"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:898
+msgid "It's opening the panel"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:918
+msgid "Closer icon"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:919
+msgid "It's closing the panel"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:940
+msgid "Size"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:942
+msgid "Mini"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:943
+msgid "Small"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:944
+msgid "Normal"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:945
+msgid "Large"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:946
+msgid "Huge"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:954
+msgid "Position"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:976
+msgid "Apply style(s)"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:977
+msgid "Multiple selections allowed (use control key)."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:978
+msgid ""
+"Change the way the Toggler/closer button(s) are displayed."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:980
+msgid "Squared"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:981
+msgid "Rounded"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:982
+msgid "Inside"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:983
+msgid "Bordered"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1028
+msgid "Set a goal"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1029
+msgid ""
+"Set a goal you want to track/achieve, e.g. click on a "
+"particular button or form submit."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1031
+msgid "None"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1032
+msgid "Click"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1033
+msgid "Form submit"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1043
+msgid "Form submit checker"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1045
+msgid "Form element has a class"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1046
+msgid "Broad check for a class"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1048
+msgid ""
+"After the submit button is pressed, we're able to check "
+"for one of the options: 1. Form element has a specified "
+"class injected. 2. If the class is revealed somewhere in "
+"the panel, but either deeper in the form or outside the "
+"form (usually beneath the form)."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1055
+msgid "Element's attribute"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1056
+msgid "Target element by ID or class"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1058
+msgid "Class"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1059
+msgid "ID"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1068
+msgid "Enter attribute's value"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1069
+msgid "E.g. target-element"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1075
+msgid "Do not show the panel again"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1076
+msgid ""
+"After the goal is met, do not show the panel for the same "
+"visitor"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1088
+msgid "Track logged in users"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1089
+msgid ""
+"By default, users who are logged in the Website are not "
+"tracked."
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1109
+msgid "Conversions module has to be activated from the "
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1109
+msgid "global settings"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1121
+msgid "Goals"
+msgstr ""
+
+#: admin/opt/config/mb-options.php:1133
+#: admin/opt/config/metabox.php:260
+msgid "Stats"
+msgstr ""
+
+#: admin/opt/config/metabox.php:28
+#: admin/opt/config/metabox.php:67
+#: admin/opt/config/metabox.php:273
+msgid "Loading"
+msgstr ""
+
+#: admin/opt/config/metabox.php:46
+#: admin/opt/config/metabox.php:84
+msgid "Location"
+msgstr ""
+
+#: admin/opt/config/metabox.php:47
+msgid ""
+"\"Head\" option allows only specific code that can be put "
+"to the <head> section of the page. You should use HTML "
+"block in order to output the styles/scripts and similar "
+"code to the page's head. Code that isn't properly "
+"structured for the head output will be stripped away."
+msgstr ""
+
+#: admin/opt/config/metabox.php:49
+msgid "Head"
+msgstr ""
+
+#: admin/opt/config/metabox.php:50
+msgid "Top <body>"
+msgstr ""
+
+#: admin/opt/config/metabox.php:51
+msgid "Bottom <body>"
+msgstr ""
+
+#: admin/opt/config/metabox.php:85
+msgid ""
+"Even if the Global loading is disabled, select the "
+"location of the panel, relative to the screen."
+msgstr ""
+
+#: admin/opt/config/metabox.php:110
+#: admin/opt/config/metabox.php:141
+msgid "Type & style"
+msgstr ""
+
+#: admin/opt/config/metabox.php:172
+#: classes/admin-columns.php:66
+msgid "Conversion"
+msgstr ""
+
+#: admin/opt/config/metabox.php:205
+msgid "Splitter (A/B Testing)"
+msgstr ""
+
+#: admin/opt/config/metabox.php:244
+msgid "Splitting items"
+msgstr ""
+
+#: admin/opt/config/metabox.php:253
+msgid "Items"
+msgstr ""
+
+#: admin/opt/config/metabox.php:285
+msgid ""
+"You can takeover the \"Global loading\" option from the "
+"selected panels and control it from here. Global loading "
+"controls the output of items from MaxBoxy strains that "
+"have such feature, i.e. FloatAny or InjectAny panels. "
+"Reusable blocks do not have that feaure."
+msgstr ""
+
+#: classes/admin-columns.php:63
+msgid "Loads (V/U)"
+msgstr ""
+
+#: classes/admin-columns.php:64
+msgid "Views (V/U)"
+msgstr ""
+
+#: classes/admin-columns.php:65
+msgid "Goals (V/U)"
+msgstr ""
+
+#: classes/init.php:159 classes/options.php:207
+msgid "Open"
+msgstr ""
+
+#: classes/init.php:160 classes/init.php:892
+#: classes/init.php:922 classes/options.php:207
+msgid "Close"
+msgstr ""
+
+#: classes/init.php:394
+msgid "Panels: "
+msgstr ""
+
+#: classes/init.php:407
+msgid "Manage Categories"
+msgstr ""
+
+#: classes/init.php:408
+msgid "Manage Tags"
+msgstr ""
+
+#: classes/init.php:435
+msgid "InjectAny Panels"
+msgstr ""
+
+#: classes/init.php:436
+msgid "InjectAny Panel"
+msgstr ""
+
+#: classes/init.php:437
+msgid "InjectAny items"
+msgstr ""
+
+#: classes/init.php:438 classes/init.php:481
+msgid "Add New Panel"
+msgstr ""
+
+#: classes/init.php:439 classes/init.php:482
+msgid "Add New"
+msgstr ""
+
+#: classes/init.php:440
+msgid "Edit InjectAny Panel"
+msgstr ""
+
+#: classes/init.php:441
+msgid "Update InjectAny Panel"
+msgstr ""
+
+#: classes/init.php:442
+msgid "Search InjectAny Panels"
+msgstr ""
+
+#: classes/init.php:443 classes/init.php:486
+msgid "Not found"
+msgstr ""
+
+#: classes/init.php:444 classes/init.php:487
+msgid "Not found in Trash"
+msgstr ""
+
+#: classes/init.php:478
+msgid "FloatAny Panels"
+msgstr ""
+
+#: classes/init.php:479
+msgid "FloatAny Panel"
+msgstr ""
+
+#: classes/init.php:480
+msgid "FloatAny items"
+msgstr ""
+
+#: classes/init.php:483
+msgid "Edit FloatAny Panel"
+msgstr ""
+
+#: classes/init.php:484
+msgid "Update FloatAny Panel"
+msgstr ""
+
+#: classes/init.php:485
+msgid "Search FloatAny Panels"
+msgstr ""
+
+#: classes/init.php:522
+msgid "Categories"
+msgstr ""
+
+#: classes/init.php:523
+msgid "Category"
+msgstr ""
+
+#: classes/init.php:539
+msgid "Tags"
+msgstr ""
+
+#: classes/init.php:540
+msgid "Tag"
+msgstr ""
+
+#: classes/init.php:541
+msgid "Add New Tag"
+msgstr ""
+
+#: classes/init.php:879
+msgid "Move out to close"
+msgstr ""
+
+#: patterns.php:23
+msgid "MaxBoxy: Functional buttons"
+msgstr ""
+
+#: patterns.php:28
+msgid "MaxBoxy: Contact"
+msgstr ""
+
+#: patterns.php:33
+msgid "MaxBoxy: Cookies and GDPR"
+msgstr ""
+
+#: patterns.php:38
+msgid "MaxBoxy: CTA"
+msgstr ""
+
+#: patterns.php:43
+msgid "MaxBoxy: Info and warnings"
+msgstr ""
+
+#: patterns.php:56
+msgid "MaxBoxy: Media"
+msgstr ""
+
+#: patterns.php:63
+msgid "MaxBoxy: Promo"
+msgstr ""
+
+#: patterns.php:68
+msgid "MaxBoxy: Signups"
+msgstr ""
+
+#: patterns.php:92
+msgid "Panel closer"
+msgstr ""
+
+#: patterns.php:109
+msgid "Panel toggler"
+msgstr ""
+
+#: patterns.php:131
+msgid "Contact form with social icons"
+msgstr ""
+
+#: patterns.php:179
+msgid ""
+"Contact form + embed google map + phone + email + address "
+"+ social icons"
+msgstr ""
+
+#: patterns.php:250
+msgid "Common cookies notice group"
+msgstr ""
+
+#: patterns.php:274
+msgid "2 columns - notice and a button"
+msgstr ""
+
+#: patterns.php:298
+msgid "3 columns"
+msgstr ""
+
+#: patterns.php:328
+msgid "2 + 1 columns"
+msgstr ""
+
+#: patterns.php:366
+msgid "2 columns + large button"
+msgstr ""
+
+#: patterns.php:401
+msgid "Common CTA (in group block)"
+msgstr ""
+
+#: patterns.php:433
+msgid "CTA (in a cover block)"
+msgstr ""
+
+#: patterns.php:470
+msgid "Info - i"
+msgstr ""
+
+#: patterns.php:490
+msgid "Info - Pin"
+msgstr ""
+
+#: patterns.php:510
+msgid "Info - Flag"
+msgstr ""
+
+#: patterns.php:530
+msgid "Info - Bulb on"
+msgstr ""
+
+#: patterns.php:550
+msgid "Info - Bell"
+msgstr ""
+
+#: patterns.php:570
+msgid "Info - Thumb up"
+msgstr ""
+
+#: patterns.php:590
+msgid "Warning - Exclamation mark"
+msgstr ""
+
+#: patterns.php:610
+msgid "Warning -Bulb off"
+msgstr ""
+
+#: patterns.php:630
+msgid "Warning - Star"
+msgstr ""
+
+#: patterns.php:650
+msgid "Danger - Stop"
+msgstr ""
+
+#: patterns.php:670
+msgid "Danger - Close"
+msgstr ""
+
+#: patterns.php:690
+msgid "Danger - Shield"
+msgstr ""
+
+#: patterns.php:715
+msgid "Common media group (e.g. youtube code and text intro"
+msgstr ""
+
+#: patterns.php:735
+msgid ""
+"Embed media (e.g. youtube code) and text intro (in a cover "
+"block)"
+msgstr ""
+
+#: patterns.php:762
+msgid "Common newsletter group"
+msgstr ""
+
+#: patterns.php:782
+msgid "In a cover block"
+msgstr ""
+
+#: patterns.php:806
+msgid "In a cover block with image"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Outside of article wagons"
+#~ msgstr "Amplios artículos de contenido"
+
+#, fuzzy
+#~ msgid " Tags:"
+#~ msgstr "Etiquetas:"
+
+#, fuzzy
+#~ msgid " Filed under:"
+#~ msgstr "archivado en"
+
+#~ msgid "<span>No</span> Comments"
+#~ msgstr "<span>Sin</span> Comentarios"
+
+#~ msgid "Filed under: %1$s"
+#~ msgstr "Archivado en: %1$s"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "Search …"
+#~ msgstr "Buscar ..."
+
+#~ msgctxt "%2$s is for Home in breadcrumbs"
+#~ msgid "%1$s %2$s %3$s"
+#~ msgstr "%1$s Inicio %3$s"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Wide content articles"
+#~ msgstr "Amplios artículos de contenido"
